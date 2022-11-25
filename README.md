@@ -1,2 +1,0 @@
-# OdinPlugin
-odin flutter plugins
