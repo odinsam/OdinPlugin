@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'package:dio/dio.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:odindio/odin_dio_interceptor.dart';
 import 'package:odindio/odindio.dart';
@@ -8,7 +7,6 @@ import 'package:odindio/odindio_platform_interface.dart';
 import 'package:odindio/odindio_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 import 'models/post_model.dart';
-import 'models/say_model.dart';
 import 'models/student_model.dart';
 import 'models/ten_model.dart';
 import 'models/test_model.dart';
