@@ -2,6 +2,8 @@
 
 odin flutter dio plugin
 
+引入 part 'xxx.g.dart'; 生成对应   xxx.g.dart 文件
+flutter pub run build_runner clean && flutter pub run build_runner build --delete-conflicting-outputs
 ## Getting Started
 
 This project is a starting point for a Flutter
