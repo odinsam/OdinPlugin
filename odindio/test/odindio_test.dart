@@ -21,6 +21,7 @@ class MockOdindioPlatform
   Future<String?> getPlatformVersion() => Future.value('42');
 }
 
+/// 多请求
 class MultiRequest {
   static Future<Response<dynamic>> req1<T>() async {
     OdinDio odindioPlugin = OdinDio();
