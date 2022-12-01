@@ -1,13 +1,17 @@
 name: odindio
 description: odin flutter dio plugin
-version: 0.0.1
-homepage:
+version: 1.0.1
+homepage: https://github.com/yiqimanbu/flutter_alipay_auth
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
   flutter: ">=2.5.0"
 
 dependencies:
+  reflectable: ^3.0.10
+  path: ^1.8.2
+  json_annotation: ^4.4.0
+  dio: ^4.0.6
   flutter:
     sdk: flutter
   flutter_web_plugins:
@@ -18,7 +22,11 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-
+  # json 序列化辅助类 https://pub.flutter-io.cn/packages/json_serializable/install
+  # https://github.com/google/json_serializable.dart/tree/master/example
+  json_serializable: ^6.2.0
+  build_runner: any
+  build_test: any
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
