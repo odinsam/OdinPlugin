@@ -1,4 +1,0 @@
-extension OdinTimer on String
-{
-
-}

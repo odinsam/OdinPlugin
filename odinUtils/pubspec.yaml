@@ -8,6 +8,8 @@ environment:
   flutter: ">=2.5.0"
 
 dependencies:
+  darq: ^1.2.1
+  crypto: ^3.0.2
   flutter:
     sdk: flutter
   flutter_web_plugins:
