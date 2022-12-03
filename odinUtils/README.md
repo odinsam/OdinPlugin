@@ -78,6 +78,7 @@ dependencies:
 
 ## Getting Started
 详细说明在：[odinSam-Flutter - OdinUtils Flutter工具类封装](https://www.odinsam.com/articles/eff3.html)
+
 pub.dev发布地址：[odinSam-Flutter - OdinUtils Flutter工具类封装](https://pub.dev/packages/odinutils)
 
 
