@@ -40,8 +40,8 @@ dependencies:
 
 | 工具类类型  | 方法名称                                            | 方法描述                                |
 |:-------|:------------------------------------------------|:------------------------------------|
-| String | OdinStringUtils.generationCode                  | 按长度生成对应的字符串                         |
-| String | OdinStringUtils.generationLimpidCode            | 按长度生成对应的字符串，不包含 0 o 1 I 等容易混淆的之母和数字 |
+| OdinStringUtils | OdinStringUtils.generationCode                  | 按长度生成对应的字符串                         |
+| OdinStringUtils | OdinStringUtils.generationLimpidCode            | 按长度生成对应的字符串，不包含 0 o 1 I 等容易混淆的之母和数字 |
 | OdinAlgorithm | OdinAlgorithm.getRandomListByWeight             | 按权重返回对应需要个数的数组                      |
 | OdinRandomUtils | OdinRandomUtils.createRandom                    | 创建random随机对象                        |
 | OdinTransformUtils | OdinTransformUtils.convertNumberToChineseMoneyWords | 数字转人民币大写                            |
